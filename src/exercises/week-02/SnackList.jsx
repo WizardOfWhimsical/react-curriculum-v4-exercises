@@ -5,10 +5,9 @@ export default function SnackList() {
     { name: 'Cinnamon Powdered Donuts', rank: 1 },
   ];
 
-  //each varible is an obj
+  //each varible is the obj in the arr
+  //MUTATES current arr for us
   snackList.sort((a, b) => a.rank - b.rank);
-
-  console.log(snackList);
 
   return (
     <ul>
