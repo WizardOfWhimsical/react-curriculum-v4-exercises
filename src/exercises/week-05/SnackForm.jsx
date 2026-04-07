@@ -24,7 +24,7 @@ export default function SnackForm({
   }
 
   return (
-    //Something
+    //Something else added to show another way
     <form
       onSubmit={handleSubmit}
       className={`${styles.form} ${className || ''}`}
